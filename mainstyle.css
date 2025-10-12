@@ -1,0 +1,189 @@
+	* {
+		margin: 0;
+        padding: 0;
+    }
+ 
+    body {
+		font-family: 'Arial', sans-serif;
+		background-image:url("WGSB Teams Background.PNG");
+		background-position: top;
+		background-repeat: no-repeat;
+		background-color:#CDCDCD;
+    }
+
+	.header1 {
+		font-family: Times New Roman;
+		height: 100px;
+		line-height: 50px;
+		margin: 0;
+		padding-left: 10px;
+		color: #EECA0A;
+		text-align:center;
+		background-color: #74B1DD;
+	}
+	.header2 {
+		font-family: Times New Roman;
+		height: 60px;
+		line-height: 50px;
+		margin: 0;
+		padding-left: 10px;
+		color: #000000;
+		text-align:center;
+	}
+	.navbar {
+            display: flex;
+            position: sticky;
+            align-items: center;
+            justify-content: space-between;
+            top: 0px;
+            background-color:#003366;
+            background-size: cover;
+            color: white;
+            padding: 10px 20px;
+        }
+	.nav-list {
+            display: flex;
+            list-style: none;
+        }
+	.nav-list li {
+            margin-right: 20px;
+        }
+ 
+    .nav-list li:last-child {
+            margin-right: 0;
+        }
+ 
+    .nav-list li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            transition: color 0.3s ease-in-out;
+    }
+ 
+    .nav-list li a:hover {
+            color: #EECA0A;
+            /* Change the color on hover */
+    }
+	
+	.flex-container {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.flex-container > div {
+		color: black;
+		margin: 10px;
+		width: 800px;
+		align-items: center;
+		text-align: left;
+		line-height: 25px;
+		font-size: 15px;
+	}
+	/* Responsive layout - makes a one column layout instead of a two-column layout */
+	@media (max-width: 800px) {
+		.flex-container {
+			flex-direction: column;
+		}
+	}
+	footer {
+		background-color:rgba(10,10,10,0.3);
+		color: black;
+		margin: 10px;
+		text-align: right;
+		line-height: 25px;
+		font-size: 15px;
+	}
+	
+	.flex-container-KS3 {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: center;
+		background-color:rgba(200,200,200,0.3);
+	}
+
+	.flex-container-KS3 > div {
+		background-color:rgba(0,51,102,0.3);
+		width: 250px;
+		margin: 10px;
+		text-align: center;
+		line-height: 25px;
+		font-size: 15px;
+		padding: 8px;
+	}
+	/* Responsive layout - makes a one column layout instead of a two-column layout */
+	@media (max-width: 800px) {
+		.flex-container-KS3 {
+			flex-direction: column;
+		}
+	}
+	
+	h2{
+		text-align: center;
+	}
+	.imglogo {
+            float: left;
+            margin: 5px;
+        }
+ 
+    .pteam {
+            text-align: justify;
+            font-size: 15px;
+        }
+		
+	.apply {
+		color: black;
+        font-size: 18px;
+        transition: color 0.3s ease-in-out;
+	}
+   .formapply {
+	   background-color:rgba(200,200,200,0.3);
+		color: black;
+		margin: 50px;
+		text-align: rleft;
+		line-height: 30px;
+		font-size: 15px;
+	}
+	.btn {
+            background-color: #ffd700;
+            color: #000;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+ 
+    .btn:hover {
+        background-color: #000;
+        /* Change the background color on hover */
+        color: #ffd700;
+    }
+		
+	.flex-container-main {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: center;
+		background-color:rgba(200,200,200,0.3);
+	}
+
+	.flex-container-main > div {
+		background-color:rgba(100,100,100,0.3);
+		width: 330px;
+		margin: 15px;
+		text-align: left;
+		line-height: 25px;
+		font-size: 15px;
+		padding: 8px;
+	}
+	
+	/* Responsive layout - makes a one column layout instead of a two-column layout */
+	@media (max-width: 800px) {
+		.flex-container-main {
+			flex-direction: column;
+		}
+	}
+	
